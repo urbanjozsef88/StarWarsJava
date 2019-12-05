@@ -34,15 +34,12 @@ public abstract class JediAbstract implements ForceSensitive{
 
     @Override
     public boolean canDefeat(ForceSensitive forceSensitive) {
-        if(this.force > forceSensitive.howMuchForceIsWithHim())
+        if(this.force > forceSensitive.howMuchForceIsWithHim() && ((JediAbstract) forceSensitive).canTurn)
         {return true;}
-        else{return false;}
+        else { return false;}
 
-/*        Egy Jedi egy másik Jedi objektumot akkor tud legyőzni, ha az
-        átállhat a sötét oldalra, és ereje kisebb, mint az övé. Az Uralkodo objektumot csak
+/*       Az Uralkodo objektumot csak
         akkor tudja legyőzni, ha ereje kétszer nagyobb.*/
-
-
 
     }
 
