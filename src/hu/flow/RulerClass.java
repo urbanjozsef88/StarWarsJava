@@ -28,8 +28,8 @@ public class RulerClass implements ForceSensitive, Sith {
 
     @Override
     public String toString() {
-        return "RulerClass" +
-                "evilness=" + evilness ;
+        return "Ruler " +
+                "evilness= " + evilness ;
     }
 }
 
