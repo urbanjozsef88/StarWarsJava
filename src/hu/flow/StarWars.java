@@ -10,8 +10,8 @@ public class StarWars {
 
 /*
         • Írj egy StarWars nevű futtatható osztályt. Az osztály rendelkezzen egy szereplok statikus függvénnyel,
-         ami egy fájl elérési útját várja paraméterül, visszatérése pedig void. A
-        metódus feladata, hogy a fájlból beolvasott sorokat feldolgozza, és létrehozzon belőlük
+         ami egy fájl elérési útját várja paraméterül, visszatérése pedig void.
+         A metódus feladata, hogy a fájlból beolvasott sorokat feldolgozza, és létrehozzon belőlük
         AnakinSkywalker, vagy Uralkodo objektumpéldányokat, majd ezekre meghívja
         az engeddElAHaragod metódust annyiszor, ahányszor az aktuális sor írja.
         Ezeket egy közös kollekcióban tárold le. Készíts továbbá egy sithek statikus metódust,
