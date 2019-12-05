@@ -34,7 +34,7 @@ public abstract class JediAbstract implements ForceSensitive{
 
     @Override
     public boolean canDefeat(ForceSensitive forceSensitive) {
-        if(this.force > forceSensitive.howMuchForceIsWithHim())
+        if(this.force > forceSensitive.howMuchForceIsWithHim() && ((JediAbstract) forceSensitive).canTurn)
         {return true;}
         else{return false;}
 
